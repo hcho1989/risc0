@@ -2,7 +2,7 @@ use clap::Parser;
 use std::path::PathBuf;
 use std::process::Command;
 
-const DIST_SERVER: &str = "https://storage.googleapis.com/risc0-rust-dist";
+const DIST_SERVER: &str = "https://rustup.risczero.com";
 
 #[derive(Parser)]
 #[clap(name = "cargo")]
